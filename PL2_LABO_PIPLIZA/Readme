@@ -1,0 +1,47 @@
+Desarrollar en ANSI C:
+
+Un programa que realice lo siguiente:
+
+1) Leer un archivo con los datos de libros, guardándolos en un linkedList de entidades
+eLibro.
+ACLARACION: El nombre del archivo se debe pasar como parámetro por línea de comandos.
+
+2) Ordenar la lista generada en el ítem anterior, con la función ll_sort, según el criterio de
+ordenamiento “Autor” de manera ascendente.
+
+3) Imprimir por pantalla todos los datos de los libros.
+ACLARACION: Se deberá imprimir la descripción de la editorial.
+
+4) Desarrollar la función ll_map en la biblioteca linkedList, la cual recibirá la lista y una
+función. La función ll_map ejecutará la función recibida como parámetro por cada ítem
+de la lista, de este modo se realizarán descuentos a los precios según se detalla:
+* Planeta: 20% (si el monto es mayor o igual a $300)
+* SIGLO XXI EDITORES: 10% (si el monto es menor o igual a $200)
+
+5) Generar el archivo de salida: mapeado.csv
+
+Datos:
+ eLibro:
+o id
+o titulo
+o autor
+o precio
+o editorialId
+
+Editoriales:
+1 - PLANETA
+2 - SIGLO XXI EDITORES
+3 - PEARSON
+4 - MINOTAURO
+5 - SALAMANDRA
+6 - PENGUIN BOOKS
+
+Refactorizar:
+Agregar al Menú las siguientes opciones
+
+6) Guardar los datos de los libros en el archivo libros.bin (modo binario)
+
+7) Cargar los datos de los empleados desde el archivo libros.bin (modo binario)
+
+8) Imprimir por pantalla todos los datos de los libros cargados desde el archivo libros.bin (modo
+binario)
